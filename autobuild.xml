@@ -18,9 +18,9 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>b31c495d5e77daa09394b370fc228312</string>
+              <string>6564a085a5a353a531908d2e6fcafd64</string>
               <key>url</key>
-              <string>https://bitbucket.org/SingularityViewer/libraries/downloads/boost-1.52.0-darwin-20130221.tar.bz2</string>
+              <string>https://bitbucket.org/SingularityViewer/libraries/downloads/boost-1.52.0-darwin-20140202.tar.bz2</string>
             </map>
             <key>name</key>
             <string>darwin</string>
@@ -54,12 +54,24 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>cd1e60a00d40f4475ae5e0aca86f74c1</string>
+              <string>eb13ff93db50d4b08648a5c78ba05310</string>
               <key>url</key>
-              <string>http://automated-builds-secondlife-com.s3.amazonaws.com/hg/repo/3p-boost/rev/249117/arch/CYGWIN/installer/boost-1.48.0-windows-20120208.tar.bz2</string>
+              <string>https://bitbucket.org/SingularityViewer/libraries/downloads/boost-1.52.0-windows-20130221.tar.bz2</string>
             </map>
             <key>name</key>
             <string>windows</string>
+          </map>
+          <key>windows64</key>
+          <map>
+            <key>archive</key>
+            <map>
+              <key>hash</key>
+              <string>2b33deae4df210c8bb9e1aea6174bc13</string>
+              <key>url</key>
+              <string>https://bitbucket.org/SingularityViewer/libraries/downloads/boost-1.56.0-windows64-vs12-20140816.tar.bz2</string>
+            </map>
+            <key>name</key>
+            <string>windows64</string>
           </map>
         </map>
       </map>
@@ -96,6 +108,18 @@
             </map>
             <key>name</key>
             <string>linux64</string>
+          </map>
+          <key>windows64</key>
+          <map>
+            <key>archive</key>
+            <map>
+              <key>hash</key>
+              <string>1c2effa8c26de72f6c92f65f83dd9e29</string>
+              <key>url</key>
+              <string>https://bitbucket.org/SingularityViewer/libraries/downloads/libxml2-2.9.1-windows64-vs12-20140709.tar.bz2</string>
+            </map>
+            <key>name</key>
+            <string>windows64</string>
           </map>
         </map>
       </map>
@@ -144,6 +168,18 @@
             </map>
             <key>name</key>
             <string>linux64</string>
+          </map>
+          <key>windows64</key>
+          <map>
+            <key>archive</key>
+            <map>
+              <key>hash</key>
+              <string>ffdbc30ce4b9238070917073b6066b36</string>
+              <key>url</key>
+              <string>https://bitbucket.org/SingularityViewer/libraries/downloads/pcre-8.35-windows64-vs12-20140816.tar.bz2</string>
+            </map>
+            <key>name</key>
+            <string>windows64</string>
           </map>
         </map>
       </map>
