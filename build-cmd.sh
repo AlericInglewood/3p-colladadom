@@ -74,10 +74,10 @@ case "$AUTOBUILD_PLATFORM" in
         "linux")
 	    export MAKEFLAGS="-j8"
 	    export LDFLAGS=-m32
-	    prefix="$top/stage/libraries/i686-linux"
+	    prefix="$top/stage"
 	    libdir="$prefix/lib"
             mkdir -p "$libdir"/{debug,release}
-	    make arch=x86 packageprefix="stage/packages/libraries/i686-linux"
+	    make arch=x86 packageprefix="stage/packages"
 
 	    mkdir -p "$prefix/include/collada"
 	    cp -R include/* "$prefix/include/collada"
@@ -89,10 +89,10 @@ case "$AUTOBUILD_PLATFORM" in
         "linux64")
 	    export MAKEFLAGS="-j8"
 	    export LDFLAGS=-m64
-	    prefix="$top/stage/libraries/x86_64-linux"
+	    prefix="$top/stage"
 	    libdir="$prefix/lib"
             mkdir -p "$libdir"/{debug,release}
-	    make arch=x64 packageprefix="stage/packages/libraries/x86_64-linux"
+	    make arch=x64 packageprefix="stage/packages"
 
 	    mkdir -p "$prefix/include/collada"
 	    cp -R include/* "$prefix/include/collada"
@@ -107,6 +107,7 @@ mkdir -p stage/LICENSES
 cp "license.txt" "stage/LICENSES/collada.txt"
 mkdir -p stage/LICENSES/collada-other
 cp "license/minizip-license.txt" "stage/LICENSES/collada-other/minizip.txt"
+echo "1.4" > stage/package_version
 
 pass
 

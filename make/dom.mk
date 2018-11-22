@@ -46,9 +46,9 @@ endif
 # On Mac, Windows and PS3 we need to be told where to find pcre
 ifeq ($(os),windows)
 ccFlags += -DPCRE_STATIC
-else
-includeOpts += -I$(packageprefix)/include/pcre
-libOpts += $(addprefix $(packageprefix)/lib/release/,libpcrecpp.a libpcre.a )
+#else
+#includeOpts += -I$(packageprefix)/include/pcre
+#libOpts += $(addprefix $(packageprefix)/lib/release/,libpcrecpp.a libpcre.a )
 endif
 
 ifeq ($(os),mac)
@@ -63,8 +63,7 @@ debug_suffix = "-d"
 else
 debug_suffix = ""
 endif
-libOpts += $(packageprefix)/lib/$(conf)/libboost_system-mt$(debug_suffix).a
-libOpts += $(packageprefix)/lib/$(conf)/libboost_filesystem-mt$(debug_suffix).a 
+libOpts += -L$(packageprefix)/lib/$(conf) -lboost_system-mt$(debug_suffix) -lboost_filesystem-mt$(debug_suffix)
 endif
 
 # minizip
