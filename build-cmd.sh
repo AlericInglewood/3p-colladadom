@@ -107,7 +107,7 @@ mkdir -p stage/LICENSES
 cp "license.txt" "stage/LICENSES/collada.txt"
 mkdir -p stage/LICENSES/collada-other
 cp "license/minizip-license.txt" "stage/LICENSES/collada-other/minizip.txt"
-echo "1.4" > stage/package_version
+echo "2.2.1" > stage/package_version
 
 pass
 

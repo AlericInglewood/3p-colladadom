@@ -339,8 +339,6 @@
       </map>
       <key>source_directory</key>
       <string>.</string>
-      <key>version</key>
-      <string>2.2</string>
       <key>version_file</key>
       <string>package_version</string>
     </map>
