@@ -46,9 +46,12 @@ endif
 # On Mac, Windows and PS3 we need to be told where to find pcre
 ifeq ($(os),windows)
 ccFlags += -DPCRE_STATIC
-#else
+else
 #includeOpts += -I$(packageprefix)/include/pcre
 #libOpts += $(addprefix $(packageprefix)/lib/release/,libpcrecpp.a libpcre.a )
+# Link with the static versions of pcre[cpp].
+ccFlags += -DPCRE_STATIC
+libOpts += -l:libpcrecpp.a -l:libpcre.a
 endif
 
 ifeq ($(os),mac)

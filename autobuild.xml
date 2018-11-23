@@ -46,9 +46,9 @@
             <key>archive</key>
             <map>
               <key>hash</key>
-              <string>1b7c91b22fd9bf7398324157545de61e</string>
+              <string>c41cf7284a56b93c31d5a4b80d79ffc2</string>
               <key>url</key>
-              <string>https://github.com/AlericInglewood/3p-boost/releases/download/1.68.0-linux64-201811221925/boost-1.68.0-linux64-201811221925.tar.bz2</string>
+              <string>https://github.com/AlericInglewood/3p-boost/releases/download/linux64-201811232336/boost-1.60.0-linux64-201811232336.tar.bz2</string>
             </map>
             <key>name</key>
             <string>linux64</string>

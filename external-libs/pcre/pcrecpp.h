@@ -1,3 +1,4 @@
+#error INCLUDING WRONG HEADER FILE.
 // Copyright (c) 2005, Google Inc.
 // All rights reserved.
 //
